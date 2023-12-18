@@ -2,7 +2,7 @@
 
 This repository contains Python scripts that were used to analyze multiplex sequential immunofluorescence (seqIF) 
 single-cell data. Data table was extracted from [COMET](https://lunaphore.com/products/comet/) image using the QuPath software as described in the manuscript.
-Multiplex seqIF image is available [here](https://lunaphore.com/). Full description of data analysis is provided in the manuscript.
+Multiplex seqIF image is available [here](https://lunaphore.com/download-center-tma-downstream-analysis/). Full description of data analysis is provided in the manuscript.
 
 <br>
 The Python code in this repository is provided as is with no warranties.
@@ -30,7 +30,7 @@ The code was tested on Windows 10 machine with 32 GB of RAM and i7 CPU.
 Make sure that all associated data files are in the data folder. The notebook can be executed partially without .ome.tiff file.
 The data folder should contain the following files:
 * single_cell_dataset.csv
-* m_plex_img.ome.tiff
+* TMA_downstream_analysis.ome.tiff
 * adata_non_subtracted.zip
 * adata_unsupervised.zip
 
